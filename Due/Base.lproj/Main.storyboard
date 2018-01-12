@@ -32,7 +32,14 @@
                             <outlet property="delegate" destination="oke-Rd-JI1" id="MPf-FI-h6l"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Due" id="8OU-Lq-Y2S"/>
+                    <navigationItem key="navigationItem" title="Due" id="8OU-Lq-Y2S">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="CnZ-P3-wPT">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="addButtonPressed:" destination="oke-Rd-JI1" id="xaB-Te-cwi"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FHm-gh-hdy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
