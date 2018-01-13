@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Due-->
+        <!--Todoey-->
         <scene sceneID="vka-nN-0q0">
             <objects>
-                <tableViewController id="oke-Rd-JI1" customClass="ToDoListViewController" customModule="Due" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="oke-Rd-JI1" customClass="ToDoListViewController" customModule="Todoey" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Nsv-3f-JWq">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -32,7 +32,7 @@
                             <outlet property="delegate" destination="oke-Rd-JI1" id="MPf-FI-h6l"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Due" id="8OU-Lq-Y2S">
+                    <navigationItem key="navigationItem" title="Todoey" id="8OU-Lq-Y2S">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="CnZ-P3-wPT">
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
@@ -53,7 +53,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="6Yx-Un-QMt">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="1" green="0.28472646378245303" blue="0.24266984535183522" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="barTintColor" red="0.91893011331558228" green="0.26707863807678223" blue="0.23515155911445618" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </textAttributes>

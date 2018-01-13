@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0227BC8620086EA000DD03EF /* Due.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Due.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0227BC8620086EA000DD03EF /* Todoey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todoey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0227BC8920086EA000DD03EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0227BC8B20086EA000DD03EF /* ToDoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewController.swift; sourceTree = "<group>"; };
 		0227BC8E20086EA000DD03EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		0227BC7D20086EA000DD03EF = {
 			isa = PBXGroup;
 			children = (
-				0227BC8820086EA000DD03EF /* Due */,
+				0227BC8820086EA000DD03EF /* Todoey */,
 				0227BC8720086EA000DD03EF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +46,12 @@
 		0227BC8720086EA000DD03EF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0227BC8620086EA000DD03EF /* Due.app */,
+				0227BC8620086EA000DD03EF /* Todoey.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0227BC8820086EA000DD03EF /* Due */ = {
+		0227BC8820086EA000DD03EF /* Todoey */ = {
 			isa = PBXGroup;
 			children = (
 				0227BC8920086EA000DD03EF /* AppDelegate.swift */,
@@ -61,15 +61,15 @@
 				0227BC9220086EA000DD03EF /* LaunchScreen.storyboard */,
 				0227BC9520086EA000DD03EF /* Info.plist */,
 			);
-			path = Due;
+			path = Todoey;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0227BC8520086EA000DD03EF /* Due */ = {
+		0227BC8520086EA000DD03EF /* Todoey */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0227BC9820086EA000DD03EF /* Build configuration list for PBXNativeTarget "Due" */;
+			buildConfigurationList = 0227BC9820086EA000DD03EF /* Build configuration list for PBXNativeTarget "Todoey" */;
 			buildPhases = (
 				0227BC8220086EA000DD03EF /* Sources */,
 				0227BC8320086EA000DD03EF /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = Due;
+			name = Todoey;
 			productName = Due;
-			productReference = 0227BC8620086EA000DD03EF /* Due.app */;
+			productReference = 0227BC8620086EA000DD03EF /* Todoey.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -100,7 +100,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0227BC8120086EA000DD03EF /* Build configuration list for PBXProject "Due" */;
+			buildConfigurationList = 0227BC8120086EA000DD03EF /* Build configuration list for PBXProject "Todoey" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,7 +113,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0227BC8520086EA000DD03EF /* Due */,
+				0227BC8520086EA000DD03EF /* Todoey */,
 			);
 		};
 /* End PBXProject section */
@@ -276,9 +276,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CH7RBQKLH9;
-				INFOPLIST_FILE = Due/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Todoey/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.AlexHarrison.Due.Due;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlexHarrison.Todoey;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -291,9 +291,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CH7RBQKLH9;
-				INFOPLIST_FILE = Due/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Todoey/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.AlexHarrison.Due.Due;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlexHarrison.Todoey;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -303,7 +303,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0227BC8120086EA000DD03EF /* Build configuration list for PBXProject "Due" */ = {
+		0227BC8120086EA000DD03EF /* Build configuration list for PBXProject "Todoey" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0227BC9620086EA000DD03EF /* Debug */,
@@ -312,7 +312,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0227BC9820086EA000DD03EF /* Build configuration list for PBXNativeTarget "Due" */ = {
+		0227BC9820086EA000DD03EF /* Build configuration list for PBXNativeTarget "Todoey" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0227BC9920086EA000DD03EF /* Debug */,
